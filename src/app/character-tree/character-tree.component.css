@@ -1,0 +1,14 @@
+table.character-tree {
+    width: 100%;
+}
+
+table.character-tree td {
+    width: auto;
+}
+
+table.character-tree td app-char-select-timer {
+    width: 100px;
+    /*text-align: center;
+    margin: auto;
+    display: block;*/
+}
