@@ -16,3 +16,14 @@ mwl-gauge > .gauge > .value-text {
   font-weight: bold;
   font-size: 2em;
 }
+
+div.button-container {
+  text-align: center;
+}
+
+div.button-container button {
+  margin-bottom: 6px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 6px;
+}

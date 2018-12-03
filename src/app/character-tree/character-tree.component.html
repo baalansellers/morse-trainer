@@ -1,43 +1,47 @@
+<div class="container-fluid button-container">
+  <button type="button" id="dah" class="btn btn-primary btn-lg">DAH</button>
+  <button type="button" id="dit" class="btn btn-success btn-lg">DIT</button>
+</div>
 <div class="character-tree">
   <div [class]="_nodeContainerClass">
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'SPACE'"></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'SPACE'" #node_></app-char-select-timer>
   </div>
   <div [class]="_nodeContainerClass">
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'T'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'E'"></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'T'" #nodeT></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'E'" #nodeE></app-char-select-timer>
   </div>
   <div [class]="_nodeContainerClass">
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'M'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'N'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'A'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'I'"></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'M'" #nodeM></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'N'" #nodeN></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'A'" #nodeA></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'I'" #nodeI></app-char-select-timer>
   </div>
   <div [class]="_nodeContainerClass">
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'O'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'G'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'K'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'D'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'W'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'R'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'U'"></app-char-select-timer>
-    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'S'"></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'O'" #nodeO></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'G'" #nodeG></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'K'" #nodeK></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'D'" #nodeD></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'W'" #nodeW></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'R'" #nodeR></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'U'" #nodeU></app-char-select-timer>
+    <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'S'" #nodeS></app-char-select-timer>
   </div>
   <div [class]="_nodeContainerClass">
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'-'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'.'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Q'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Z'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Y'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'C'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'X'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'B'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'J'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'P'"></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'-'" #node-></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'.'" #nodeDot></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Q'" #nodeQ></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Z'" #nodeZ></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'Y'" #nodeY></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'C'" #nodeC></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'X'" #nodeX></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'B'" #nodeB></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'J'" #nodeJ></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'P'" #nodeP></app-char-select-timer>
       <div [class]="_nodeClass" style="width: 100px;">&nbsp;</div>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'L'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'-'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'G'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'V'"></app-char-select-timer>
-      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'H'"></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'L'" #nodeL></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'-'" #node-2></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'F'" #nodeF></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'V'" #nodeV></app-char-select-timer>
+      <app-char-select-timer [class]="_nodeClass" [gaugeMax]="_selectionTiming" [gaugeLabel]="'H'" #nodeH></app-char-select-timer>
     </div>
 </div>

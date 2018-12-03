@@ -40,12 +40,17 @@ export class CharSelectTimerComponent implements OnInit, OnDestroy {
     this._interval = setInterval(updateValues, 1000);
   }
 
+  @Output()
+  stopTimer() {
+    clearInterval(this._interval);
+  }
+
   ngOnInit() {
 
   }
 
   ngOnDestroy(): void {
-    clearInterval(this._interval);
+    this.stopTimer();
   }
 
 }
